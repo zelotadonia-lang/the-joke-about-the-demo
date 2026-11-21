@@ -2,6 +2,11 @@
 
 Writes a single deterministic joke about a live demo beside an AI coding
 agent to /output/entry.txt: UTF-8, no trailing newline, 1-280 code points.
+
+The joke's setup is the rehearsal (twelve clean runs), the punchline flips
+it live: the agent "fixes" the one line that worked. A developer watching
+a demo recognises the move at once: the agent rewrites working code
+on stage, and the demo breaks on the line nobody expected to change.
 """
 
 import os
